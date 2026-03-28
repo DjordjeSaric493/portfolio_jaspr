@@ -55,7 +55,7 @@ Want to run this yourself? Follow these steps:
 
 ---
 
-# Đorđe Šarić - Portfolio (Jaspr) 🚀
+# Đorđe Sarić - Portfolio (Jaspr) 🚀
 
 Dobrodošli na moj interaktivni portfolio koji podseća na operativni sistem! Ovaj projekat je izrađen koristeći [Jaspr](https://github.com/schultek/jaspr), moderni web framework za programski jezik Dart, koji pišete kao Flutter, a kompajlira se u brz HTML/CSS/JS.
 
