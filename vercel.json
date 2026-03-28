@@ -1,5 +1,5 @@
 {
-    "installCommand": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/schultek/jaspr/main/scripts/install_dart.sh)\" && export PATH=\"$PATH:$HOME/.dart-sdk/bin:$HOME/.pub-cache/bin\" && dart pub global activate jaspr_cli",
-    "buildCommand": "export PATH=\"$PATH:$HOME/.dart-sdk/bin:$HOME/.pub-cache/bin\" && jaspr build",
+    "installCommand": "curl -O https://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/dartsdk-linux-x64-release.zip && unzip -q dartsdk-linux-x64-release.zip && export PATH=\"$PATH:$(pwd)/dart-sdk/bin\" && dart pub global activate jaspr_cli",
+    "buildCommand": "export PATH=\"$PATH:$(pwd)/dart-sdk/bin:$HOME/.pub-cache/bin\" && jaspr build",
     "outputDirectory": "build/jaspr"
 }
