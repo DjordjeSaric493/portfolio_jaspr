@@ -1,0 +1,5 @@
+{
+    "installCommand": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/schultek/jaspr/main/scripts/install_dart.sh)\" && export PATH=\"$PATH:$HOME/.dart-sdk/bin:$HOME/.pub-cache/bin\" && dart pub global activate jaspr_cli",
+    "buildCommand": "export PATH=\"$PATH:$HOME/.dart-sdk/bin:$HOME/.pub-cache/bin\" && jaspr build",
+    "outputDirectory": "build/jaspr"
+}
