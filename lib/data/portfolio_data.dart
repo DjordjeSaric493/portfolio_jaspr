@@ -312,6 +312,18 @@ final List<SkillsModel> languagesData = [
 
 final List<CompetitionModel> competitionsData = [
   const CompetitionModel(
+    title: "Google Flutter X Serverpod AI assistant hackathon",
+    organization: "Google X Serverpod",
+    date: "Feb 2026",
+    bulletPointsHtml: [
+      "Built full stack Dart app with AI assistant using Flutter and Serverpod",
+      "First contact with Serverpod as a backend solution purely in Dart",
+      "Great show off of Dart and Flutter ecosystem as full stack solution",
+    ],
+    location: "Belgrade, Serbia",
+    colorHex: "#F44336",
+  ),
+  const CompetitionModel(
     title: "Fonis C2S Tech Challenge",
     organization: "FONIS-FON",
     date: "May 2023",
